@@ -23,16 +23,16 @@ What are the core features that your game should have? These should be things th
 -paddle that can be moved horizontally with mouse, bounces ball back 
 -ball that starts in the middle, breaks bricks that it touches, bounces back to the opposite direction it hits after touching brick or the walls
 -bricks that are part of the arrays that get broken 
--game resets when ball goes out of bounds
--ball bouncing off paddle not being straight up
+-direction of where ball bounces depends on where on the paddle it hits
 
 
 ### Extra Features
 What are some features that are not essential to gameplay, but you would like to see (provided you have time after completing the necessary features.
 
--number in the middle that says how many bricks are left
+-number that says how many bricks are left
 -pause feature 
--
+-game resets when the player has no more lives
+-3 lives, ball and paddle starts at middle but bricks aren't reset, game resets when it hits 0 lives
 
 
 ### Controls
@@ -43,19 +43,31 @@ Keyboard Commands:
 
 Mouse Conrol:
 - Mouse movement: left/right to move paddle
-- Mouse pressed:
+- Mouse pressed: start the game
 
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assingments, you will have to add new features to them.
 
-CLASS NAME0
+CLASS game
 - Instance variables:
   - LIST INSTANCE VARS HERE
 - METHODS
   - LIST METHODS HERE
 
-CLASS NAME1
+CLASS paddle
+- Instance variables:
+  - LIST INSTANCE VARS HERE
+- METHODS
+  - LIST METHODS HERE
+
+CLASS ball
+- Instance variables:
+  - LIST INSTANCE VARS HERE
+- METHODS
+  - LIST METHODS HERE
+  
+  CLASS bricks
 - Instance variables:
   - LIST INSTANCE VARS HERE
 - METHODS
