@@ -62,7 +62,13 @@ CLASS ball
 - METHODS
   - LIST METHODS HERE
   
-  CLASS bricks
+  CLASS brick
+- Instance variables:
+  - LIST INSTANCE VARS HERE
+- METHODS
+  - LIST METHODS HERE
+
+ CLASS brickGrid
 - Instance variables:
   - LIST INSTANCE VARS HERE
 - METHODS
