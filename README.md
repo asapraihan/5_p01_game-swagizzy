@@ -15,27 +15,34 @@ This project will be completed in phases. The first phase will be to work on thi
 
 ## Phase 0: Game Selection, Analysis & Plan
 
-#### Selected Game: YOUR GAME HERE
+#### Selected Game: Breakout/Arkanoid
 
 ### Necessary Features
 What are the core features that your game should have? These should be things that __must__ be implemented in order to make the game playable, not extra features that could be added to make the game more fun to play.
 
-YOUR ANSWERS HERE
+-paddle that can be moved horizontally with mouse, bounces ball back 
+-ball that starts in the middle, breaks bricks that it touches, bounces back to the opposite direction it hits after touching brick or the walls
+-bricks that are part of the arrays that get broken 
+-game resets when ball goes out of bounds
+-ball bouncing off paddle not being straight up
+
 
 ### Extra Features
 What are some features that are not essential to gameplay, but you would like to see (provided you have time after completing the necessary features.
 
-YOUR ANSWERS HERE
+-number in the middle that says how many bricks are left
+-pause feature 
+-
 
 
 ### Controls
 How will your game be controlled? If the mouse will be used, explain how. List all keyboard commands as well.
 
 Keyboard Commands:
-- LIST OF COMMANDS HERE
+- spacebar to pause/continue the game
 
 Mouse Conrol:
-- Mouse movement:
+- Mouse movement: left/right to move paddle
 - Mouse pressed:
 
 
