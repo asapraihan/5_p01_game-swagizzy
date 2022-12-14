@@ -52,24 +52,53 @@ What classes will you be creating for this project? Include the instance variabl
 
 CLASS paddle
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - x
+  - y
+  - width
+  - height
 - METHODS
-  - LIST METHODS HERE
+  - move()
+  - display()
+  - ballHit()
+  - reset()
 
 CLASS ball
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - x
+  - y
+  - xVelocity
+  - yVelocity
+  - radius
 - METHODS
-  - LIST METHODS HERE
+  - display()
+  - move()
+  - xMove(direction)
+  - yMove(direction)
+  - reset()
   
   CLASS brick
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - x
+  - y
+  - width
+  - height
+  - state
 - METHODS
-  - LIST METHODS HERE
+  - display()
+  - break()
+  - hitLeft()
+  - hitRight()
+  - hitTop()
+  - hitBottom()
+  - reset()
 
  CLASS brickGrid
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - numRows
+  - numCols
+  - grid
 - METHODS
-  - LIST METHODS HERE
+  - setupGrid()
+  - showGrid()
+  - updateGrid()
+  - scoreCalc()
